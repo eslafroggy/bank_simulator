@@ -1,3 +1,8 @@
+
+body {
+	background-color: #E9D6C5;
+	
+}
 h1 {
 	text-align: center;
 }
@@ -9,6 +14,12 @@ h1 {
 	margin: 0 auto;
 }
 
+.border {
+	border-left-style: solid;
+  border-color:#E9D6C5;
+	border-width: 10px;
+}
+
 .checking, .savings {
    height:300px;
    width: 300px;
@@ -16,9 +27,6 @@ h1 {
    border: 2px solid black;
   }
 
- .checking, h2 {
-	text-align: left;
-}
 
 .checking {
 	float: left;
